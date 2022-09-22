@@ -1,0 +1,13 @@
+.main-container {
+  background-color: black;
+}
+
+.main-container .main-container__title {
+  color: aquamarine;
+  font-size: 24px;
+  transition: all 0.3s;
+}
+
+.main-container .main-container__title:hover {
+  color: bisque;
+}

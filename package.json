@@ -1,0 +1,25 @@
+{
+  "name": "ithome2022-github-demo",
+  "version": "1.0.0",
+  "description": "2022 鐵人賽的 demo 專案",
+  "main": "main.js",
+  "scripts": {
+    "compile-SCSS--watch": "sass --watch ./css/input.scss ./css/output.css",
+    "compile-and-fix": "sass ./css/input.scss ./css/output.css && stylelint \"**/*.{css,scss,sass}\" --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ithme2022"
+  ],
+  "author": "rocket-pencil",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.55.0"
+  },
+  "devDependencies": {
+    "postcss": "^8.4.16",
+    "stylelint": "^14.12.1",
+    "stylelint-config-sass-guidelines": "^9.0.1",
+    "stylelint-config-standard": "^28.0.0"
+  }
+}
