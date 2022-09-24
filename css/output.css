@@ -1,13 +1,13 @@
 .main-container {
-  background-color: black;
+  background-color: #000;
 }
 
-.main-container .main-container__title {
-  color: aquamarine;
+.main-container__title {
+  color: #7fffd4;
   font-size: 24px;
   transition: all 0.3s;
 }
 
-.main-container .main-container__title:hover {
-  color: bisque;
+.main-container__title:hover {
+  color: #ffe4c4;
 }
