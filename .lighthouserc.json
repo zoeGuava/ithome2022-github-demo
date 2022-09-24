@@ -1,5 +1,8 @@
 {
     "ci": {
+        "collect": {
+            "staticDistDir": "./index.html"
+          },
         "upload": {
            "target": "temporary-public-storage"
         }
